@@ -29,4 +29,12 @@ for (i in c(2:3)){
   test[, i] <- as.factor(test[, i])
 }
 
+# Change variable Name in to character
+grep("Name", colnames(train))
+grep("Name", colnames(test))
+
+for (i in c(4)){
+  train[, i] <- as.character(train[, i])
+  test[, i] <- as.character(test[, i])
+}
 
