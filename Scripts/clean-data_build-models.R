@@ -172,6 +172,7 @@ test$Survived <- predict(model_cforest, test, OOB=TRUE, type = "response")
 # Fourth Submission
 submit <- data.frame(PassengerId = test$PassengerId, Survived = test$Survived)
 write.csv(submit, file = "conditionalInferenceModel.csv", row.names = FALSE)
+# Model with highest accuracy rate of 0.81
 
 # Check class distribution of variable Survived
 round(prop.table(table(train$Survived)) * 100) # imbalanced data

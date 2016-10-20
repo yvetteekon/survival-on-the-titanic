@@ -1,9 +1,7 @@
-# Install and packages
-if(!require(ggplot2)){install.packages("ggplot2")}
-if(!require(plotly)){install.packages("plotly")}
-if(!require(gridExtra)){install.packages("gridExtra")}
-if(!require(cowplot)){install.packages("cowplot")}
-if(!require(reshape2)){install.packages("reshape2")}
+# Initialize libraries
+library(ggplot2)
+library(gridExtra)
+library(cowplot)
 
 # Load data
 train <- read.csv("train.csv", header=TRUE, sep=",", stringsAsFactors = T)
@@ -59,7 +57,6 @@ hist <- function(a){
   ggplot(data = num_train, aes(x = a, y=..density..)) +
     geom_histogram(fill="blue",color="red",alpha = 0.5,bins =100) +
     geom_density()
-  #ggplotly()
 }
 
 # Histogram and density plots
@@ -79,7 +76,6 @@ bar <- function(b){
   ggplot(data = cat_train, aes(x = b)) +
     geom_bar(fill = "steelblue", color = "green", width = 0.8, stat = "count") +
     guides(fill = FALSE)
-  #ggplotly()
 }
 
 # Bar plots
