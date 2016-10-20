@@ -22,10 +22,5 @@ https://www.kaggle.com/c/titanic/data
 ### "Best" Model
 The model with highest predictive accuracy (0.81) on the Kaggle leaderboard was the Conditional Inference Tree Model
 
-### Imbalanced Data
-Applied SMOTE to data set to deal with imbalanced classes in the data set but it didn't improve my models predictive accuracy significantly. 
-
-Decision Tree Models work quite well with imbalanced data sets
-
 ### Credit
 http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/
