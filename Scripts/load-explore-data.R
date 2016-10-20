@@ -18,14 +18,14 @@ summary(train)
 data.frame(sort(sapply(train, class)))
 data.frame(sort(sapply(test, class)))
 
-# Initialize a zero column for "Survived" in test data
+# Initialize a column of zeros for Survived in testa
 test$Survived <- 0
 
 # Reorder column "Survived" in test data
 refcols <- c("PassengerId", "Survived")
 test <- test[, c(refcols, setdiff(names(test), refcols))]
 
-# Change variables Survived and Pclass into factors
+# Encode variables Survived and Pclass into factors
 grep("Survived", colnames(train))
 grep("Pclass", colnames(train))
 grep("Survived", colnames(test))
@@ -36,7 +36,7 @@ for (i in c(2:3)){
   test[, i] <- as.factor(test[, i])
 }
 
-# Change variable Name in to character
+# Encode variable Name to character variable
 grep("Name", colnames(train))
 grep("Name", colnames(test))
 
@@ -45,7 +45,7 @@ for (i in c(4)){
   test[, i] <- as.character(test[, i])
 }
 
-# Check variable Survived
+# Check variable Survived classes distribution
 unique(train$Survived)
 round(prop.table(table(train$Survived)) * 100) # severity of imbalanced classes
 
