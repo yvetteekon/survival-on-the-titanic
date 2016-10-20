@@ -1,6 +1,9 @@
 # Survival-on-the-Titanic
 A predictive model to determine survival on the Titanic
 
+### Data
+https://www.kaggle.com/c/titanic/data
+
 ### Models built
 
 * Decision Tree (CART Model)
