@@ -2,9 +2,13 @@
 A predictive model to determine survival on the Titanic
 
 ### Models built
+
 ... Decision Tree (CART Model)
+
 ... Random Forest Model
+
 ... Conditional Inference Tree Model
+
 ... Logistic Model
 
 ### "Best" Model
