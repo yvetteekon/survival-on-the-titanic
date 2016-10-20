@@ -1,15 +1,15 @@
 # Survival-on-the-Titanic
 A predictive model to determine survival on the Titanic
 
-### Data
-https://www.kaggle.com/c/titanic/data
+### Data :
+Kaggle Competition website
 
-### Data Characteristics
+### Data Characteristics :
 
 * Size : &asymp; 1,300
 * Missing values : Yes
 
-### Models built
+### Models Considered :
 
 * Decision Tree (CART Model)
 
@@ -19,8 +19,8 @@ https://www.kaggle.com/c/titanic/data
 
 * Logistic Model
 
-### "Best" Model
+###"Best" Model :
 The model with highest predictive accuracy (0.81) on the Kaggle leaderboard was the Conditional Inference Tree Model
 
-### Credit
+### Credit :
 http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/
