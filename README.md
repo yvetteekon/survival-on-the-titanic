@@ -4,6 +4,9 @@ A predictive model to determine survival on the Titanic
 ### Data
 https://www.kaggle.com/c/titanic/data
 
+### Data size
+Approximately 1,300
+
 ### Models built
 
 * Decision Tree (CART Model)
