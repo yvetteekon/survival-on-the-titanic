@@ -6,7 +6,7 @@ https://www.kaggle.com/c/titanic/data
 
 ### Data Characteristics
 
-* Size : &asymp; 1,300
+*## Size : &cong; 1,300
 * Missing values : Yes
 
 ### Models built
