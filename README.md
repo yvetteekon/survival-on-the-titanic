@@ -6,7 +6,7 @@ https://www.kaggle.com/c/titanic/data
 
 ### Data Characteristics
 
-* Size : &cong; 1,300
+* Size : &asymp; 1,300
 * Missing values : Yes
 
 ### Models built
@@ -27,5 +27,5 @@ Applied SMOTE to data set to deal with imbalanced classes in the data set but it
 
 Decision Tree Models work quite well with imbalanced data sets
 
-### Tutorial Link
+### Credit
 http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/
