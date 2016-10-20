@@ -4,8 +4,10 @@ A predictive model to determine survival on the Titanic
 ### Data
 https://www.kaggle.com/c/titanic/data
 
-### Data size
-Approximately 1,300
+### Data Characteristics
+
+* Size : &asymp; 1,300
+* Missing values : Yes
 
 ### Models built
 
