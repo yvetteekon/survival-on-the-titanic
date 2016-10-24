@@ -8,15 +8,15 @@ Kaggle Competition website
 
 ### Data Characteristics :
 
-* Number of instances : 10,465
+* Number of instances : 1,309
 
-* Number of attributes : 13
+* Number of attributes : 12
 
-* Missing values : None
+* Missing values : Yes
 
 * Default task : Classification
 
-* Response data type : Multivariate
+* Response data type : Binary
 
 ### Models Considered :
 
