@@ -31,5 +31,5 @@ Kaggle Competition website
 ###"Best" Model :
 The model with highest predictive accuracy (0.81) on the Kaggle leaderboard was the **Conditional Inference Tree Model**
 
-### Credit :
+### Resource :
 http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/
