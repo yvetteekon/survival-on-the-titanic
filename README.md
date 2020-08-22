@@ -28,7 +28,7 @@ Kaggle Competition website
 
 * Logistic Model
 
-###"Best" Model :
+### "Best" Model :
 The model with highest predictive accuracy (0.81) on the Kaggle leaderboard was the **Conditional Inference Tree Model**
 
 ### Resource :
